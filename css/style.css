@@ -72,7 +72,11 @@ body{
 .sec-header{
     text-align: center;
 }
+/* .svg-inline--fa {
+    margin-top:7px;
+} */
 .social a{
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24),0 0 4px 0 rgba(0,0,0,0.14);
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -182,50 +186,36 @@ div.progress-bar > span{
     margin:30px 20px;
 }
 .box{
-    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24),0 0 4px 0 rgba(0,0,0,0.14);
-    box-sizing: border-box;
+    box-shadow: 0 4px 4px 0 #0000003d,0 0 4px 0 rgba(0,0,0,0.14);
+     box-sizing: border-box;
     max-width: 320px;
     padding: 30px; 
-    margin: 30px;
+    margin: 30px;   
 }
+@media(max-width:767px){
+     .flex-box{
+         display: flex;
+         justify-content: center;
+     }}
 .box-slim{
     padding: 40px;
-    max-width:350px;
+    /* max-width:350px; */
     text-align: center;
+}
+@media(min-width:768px){
+    .work-wrapper{
+     display: flex;
+    justify-content: center;
+    }
 }
 .border-2{
     text-align: center;
 }
-/* @media(min-width:676px) and (max-width:767px){
-        .box-slim{
-            margin-left: 29%;
-        }
-}
-@media(min-width:517px) and (max-width:675px){
-    .box-slim{
-        margin-left: 20%;
-    }
-}
-@media(min-width:150px) and (max-width:516px){
-    .box-slim{
-        margin-left: 15%;
-    }
-} */
+
 #my-work{
     margin-bottom: 30px;
 }
-@media(min-width:768px){
-    .work-wrapper{
-        margin: auto;
-        width:80%;
-    }
-}
-@media(max-width:767px){
-    .work-wrapper{
-        margin: auto;
-        width:100%;
-    }
-}
+
 h3 > span, .nav a {
     position: relative;
     color: #000;
@@ -255,15 +245,7 @@ h3 > span, .nav a {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
-  .social a {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    margin: 5px;
-    text-align: center;
-    color: #000;
-    border: 1px solid #000;
-  }
+  
 
 
 
