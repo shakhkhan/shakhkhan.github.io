@@ -22,3 +22,6 @@ $(function(){
     });
 
 })
+function alertFunction() {
+    alert("This site is under progress");
+}
