@@ -86,6 +86,12 @@ body{
     border: 1px solid #000;
    
 }
+address{
+    display: initial;
+}
+.fa-envelope , .fa-map-pin , .fa-mobile-alt{
+    font-size: 20px;
+}
 .table-custom{
     font-size: 100%;
 }
@@ -131,6 +137,10 @@ body{
     margin: 0;
     color: #fff;
 }
+.card h6{
+  
+    color: #fff;
+}
 .front, .back{
     position: absolute;
     width: 100%;
@@ -144,13 +154,20 @@ body{
     background: #b1c4d4;
     transform: rotateY(180deg);
 }
+.card{
+    box-shadow: 0 4px 4px 0 #0000003d,0 0 4px 0 rgba(0,0,0,0.14);
+}
 .card:hover{
     transform: rotateY(180deg);
 }
 article#skills-progress{
     padding: 3px 10px 0;
 }
+.progress-bar{
+    box-shadow: 0 4px 4px 0 #0000003d,0 0 4px 0 rgba(0,0,0,0.14);
+}
 div.progress{
+    box-shadow: 0 4px 4px 0 #0000003d,0 0 4px 0 rgba(0,0,0,0.14) !important;
     font-weight: bold;
     color:#fff;
     /* background-color: #f3f408; */
