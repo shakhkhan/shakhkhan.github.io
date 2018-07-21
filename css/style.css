@@ -102,6 +102,43 @@ address{
 .table-custom dd {
     text-align: left;
 }
+/* .exp-header h4{
+    color: #2196f3 !important;
+} */
+#experience{
+    background: url(../images/table-img.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.exp-header{
+    text-align: center;
+}
+.exp-mob-only{
+    display: flex;
+    justify-content: center;
+
+}
+@media(min-width:910px) and (max-width:1106px){
+    table, th, td {
+        width: 75%!important;}
+}
+@media(min-width:768px) and (max-width:909px){
+    table, th, td {
+        width: 90%!important;}
+}
+table, th, td {
+    width:60%;
+    margin: auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 30px;
+    table-layout: fixed;
+    background: #2196f3;
+    opacity: 0.8;
+    color:#fff;
+    margin-top:100px; 
+    margin-bottom: 80px;
+}
 .edu-header{
     text-align: center;
 }
