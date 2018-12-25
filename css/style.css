@@ -83,8 +83,15 @@ body{
 .sec-header{
     text-align: center;
 }
-.make_my_white{
-    color: #fff;
+@media(min-width:992px){
+    .make_my_white{
+        color: #fff;
+    }
+}
+@media(max-width:992px){
+    .make_my_white{
+        color: black;
+    }
 }
 /* .svg-inline--fa {
     margin-top:7px;
@@ -97,8 +104,7 @@ body{
     margin: 5px;
     text-align: center;
     color: #000;
-    border: 1px solid #000;
-   
+    border: 1px solid #000; 
 }
 address{
     display: initial;
@@ -121,9 +127,6 @@ address{
     text-align: left;
     color:black;
 }
-/* .exp-header h4{
-    color: #2196f3 !important;
-} */
 #experience{
     background: url(../images/table-img.jpg) no-repeat center fixed;
     background-size: cover;
@@ -187,7 +190,6 @@ table, th, td {
     height: 250px;
     transition: all 0.6s ease;
     transform-style: preserve-3d;
-
 }
 .card h4{
     margin: 0;
@@ -318,20 +320,3 @@ h3 > span, .nav a {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
